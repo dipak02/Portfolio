@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-wrapper {
+  box-sizing: content-box;
+}
+
+.swiper-slide {
+  -webkit-box-sizing: border-box; /* Safari and older browsers */
+  box-sizing: border-box;
+} 
